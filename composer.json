@@ -12,20 +12,11 @@
         "laravel/tinker": "^2.9",
         "nwidart/laravel-modules": "@dev"
     },
-    "repositories": [
-        {
-          "type": "path",
-          "url": "../../packages/laravel-modules"
-        },
-        {
-          "type": "path",
-          "url": "../../packages/laravel-module-generator"
-        }
-    ],
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.13",
+        "fakerphp/faker": "^1.23.1",
         "larastan/larastan": "^2.9.5",
         "laravel/pint": "^1.15.2",
-        "fakerphp/faker": "^1.23.1",
         "laravel/sail": "^1.29.1",
         "mockery/mockery": "^1.6.11",
         "nunomaduro/collision": "^8.1.1",

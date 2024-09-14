@@ -4,8 +4,6 @@ use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Tests\TestCase;
 
-uses(TestCase::class);
-
 test('password can be updated', function () {
     $user = User::factory()->create();
 

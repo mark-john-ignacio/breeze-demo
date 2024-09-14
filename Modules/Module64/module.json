@@ -1,0 +1,11 @@
+{
+    "name": "Module64",
+    "alias": "module64",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Module64\\Providers\\Module64ServiceProvider"
+    ],
+    "files": []
+}

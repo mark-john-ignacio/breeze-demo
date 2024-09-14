@@ -1,0 +1,11 @@
+{
+    "name": "Module121",
+    "alias": "module121",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Module121\\Providers\\Module121ServiceProvider"
+    ],
+    "files": []
+}

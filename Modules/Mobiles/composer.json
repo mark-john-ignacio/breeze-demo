@@ -1,0 +1,28 @@
+{
+    "name": "dcblogdev/mobiles",
+    "description": "",
+    "authors": [
+        {
+            "name": "David Carr",
+            "email": "dave@dcblog.dev"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mobiles\\": "app",
+            "Modules\\Mobiles\\Database\\Factories\\": "database/factories/",
+            "Modules\\Mobiles\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Mobiles\\Tests\\": "tests/"
+        }
+    }
+}

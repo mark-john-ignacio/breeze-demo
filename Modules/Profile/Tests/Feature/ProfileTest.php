@@ -5,8 +5,6 @@ use Tests\TestCase;
 
 use function Pest\Laravel\actingAs;
 
-uses(TestCase::class);
-
 test('profile page is displayed', function () {
     $user = User::factory()->create();
 

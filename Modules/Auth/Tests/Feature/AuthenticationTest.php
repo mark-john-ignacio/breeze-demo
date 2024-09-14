@@ -8,8 +8,6 @@ use function Pest\Laravel\assertGuest;
 use function Pest\Laravel\get;
 use function Pest\Laravel\post;
 
-uses(TestCase::class);
-
 test('login screen can be rendered', function () {
     get('/login')->assertOk();
 });

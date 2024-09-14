@@ -1,0 +1,19 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use Modules\Module21\Http\Controllers\Module21Controller;
+
+/*
+ *--------------------------------------------------------------------------
+ * API Routes
+ *--------------------------------------------------------------------------
+ *
+ * Here is where you can register API routes for your application. These
+ * routes are loaded by the RouteServiceProvider within a group which
+ * is assigned the "api" middleware group. Enjoy building your API!
+ *
+*/
+
+Route::middleware(['auth:sanctum'])->prefix('v1')->group(function () {
+    Route::apiResource('module21', Module21Controller::class)->names('module21');
+});

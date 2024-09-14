@@ -1,0 +1,11 @@
+{
+    "name": "Module32",
+    "alias": "module32",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Module32\\Providers\\Module32ServiceProvider"
+    ],
+    "files": []
+}

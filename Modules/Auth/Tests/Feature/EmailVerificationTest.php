@@ -6,8 +6,6 @@ use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\URL;
 use Tests\TestCase;
 
-uses(TestCase::class);
-
 test('email verification screen can be rendered', function () {
     $user = User::factory()->create([
         'email_verified_at' => null,

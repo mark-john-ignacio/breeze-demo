@@ -1,0 +1,30 @@
+{
+    "name": "dcblogdev/module37",
+    "description": "",
+    "authors": [
+        {
+            "name": "David Carr",
+            "email": "dave@dcblog.dev"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Module37\\": "app/",
+            "Modules\\Module37\\Database\\Factories\\": "database/factories/",
+            "Modules\\Module37\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Module37\\Tests\\": "tests/"
+        }
+    }
+}
