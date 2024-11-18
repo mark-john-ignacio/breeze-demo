@@ -6,12 +6,23 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "dcblogdev/laravel-module-generator": "v2.0.4",
+        "dcblogdev/laravel-module-generator": "@dev",
         "laravel/framework": "^11.32",
         "laravel/sanctum": "^4.0.3",
         "laravel/tinker": "^2.10",
-        "nwidart/laravel-modules": "v11.1.6"
+        "livewire/volt": "^1.6",
+        "nwidart/laravel-modules": "@dev"
     },
+    "repositories": [
+        {
+          "type": "path",
+          "url": "../../packages/laravel-modules"
+        },
+        {
+          "type": "path",
+          "url": "../../packages/laravel-module-generator"
+        }
+    ],
     "require-dev": {
         "larastan/larastan": "^3.0.0",
         "laravel/pint": "^1.18.1",

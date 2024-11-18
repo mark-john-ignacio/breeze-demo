@@ -4,6 +4,8 @@ namespace Modules\Base\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Livewire\Volt\Volt;
+use Nwidart\Modules\Facades\Module;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 
@@ -107,6 +109,8 @@ class BaseServiceProvider extends ServiceProvider
 
         $componentNamespace = str_replace('/', '\\', config('modules.namespace').'\\'.$this->moduleName.'\\'.config('modules.paths.generator.component-class.path'));
         Blade::componentNamespace($componentNamespace, $this->moduleNameLower);
+
+        Volt::mount(Module::getModulePath($this->moduleName).'resources/views/livewire');
     }
 
     /**
