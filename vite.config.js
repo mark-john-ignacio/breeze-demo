@@ -12,7 +12,13 @@ async function getConfig() {
                 input: allPaths,
                 refresh: true,
             })
-        ]
+        ],
+        base: "/breeze-demo/public",
+        build: {
+            rollupOptions: {
+                input: 'public/index.php',
+            },
+        },
     });
 }
 
